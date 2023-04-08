@@ -1,0 +1,15 @@
+PS C:\Users\sanht\Desktop\load_test> ssh -i key-pair.pem ec2-user@54.211.155.226
+   ,     #_
+   ~\_  ####_        Amazon Linux 2023
+  ~~  \_#####\
+  ~~     \###|
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023
+   ~~       V~' '->
+    ~~~         /
+      ~~._.   _/
+         _/ _/
+       _/m/'
+Last login: Thu Apr  6 16:35:33 2023 from 14.187.141.239
+[ec2-user@ip-10-1-10-36 ~]$ mysql -u admin -h database-1.chjbtl4rfs0d.us-east-1.rds.amazonaws.com -p
+-bash: mysql: command not found
+[ec2-user@ip-10-1-10-36 ~]$
