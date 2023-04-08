@@ -1,5 +1,8 @@
 1. Minimum RTO for a single AZ outage
-    Minimum RTO would be to get updated DNS changes. In case of Multi-AZ deployment, standby instance is already running and data is replicated synchronously. This ensures quick recovery.
+    - Problem happens (First minute)
+    - An amount of time passes before an alert triggers (5 mins)
+    - Automatically switch to second availability zone (1 mins)
+    To summarize, it can take minimum ±10 mins
 2. Minimum RTO for a single region outage
     - Problem happens (First minute)
     - An amount of time passes before an alert triggers (5 mins)
